@@ -43,15 +43,18 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 
 ## Milestone 4 — Going live
 > Put the code on GitHub and publish the site at a public link.
-- [ ] I (the developer) create a public GitHub repository named `digital-clock` and give Claude my GitHub username
-- [ ] Add a `README.md` and a `.gitignore`
-- [ ] Put the code on GitHub (`main` branch)
+- [x] I (the developer) create the GitHub repository — `FrontOnly` (https://github.com/AssafFink/FrontOnly)
+- [x] Add a `.gitignore`
+- [ ] Add a `README.md`
+- [x] Put the code on GitHub (`main` branch) — first push done; push again after each approved milestone
+- [ ] I (the developer) switch the repository from private to public
 - [ ] Turn on GitHub Pages for the repository
-- [ ] Fill in the real repository and site addresses in `ARCHITECTURE.md`
-- **Done when:** the clock works at the public GitHub Pages link, on my computer and on my phone
+- [x] Fill in the real repository and site addresses in `ARCHITECTURE.md`
+- **Done when:** the clock works at `https://assaffink.github.io/FrontOnly/`, on my computer and on my phone
 
 ---
 
 ## Done log
 - 2026-10-08 — Spec documents written (PRD, ARCHITECTURE, DESIGN, MILESTONES). No code yet.
 - 2026-10-08 — Milestone 1 built (walking skeleton). Waiting for the developer's check and approval.
+- 2026-10-08 — Local git repository created and first push made to GitHub (`AssafFink/FrontOnly`, branch `main`).

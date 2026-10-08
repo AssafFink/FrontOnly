@@ -29,8 +29,8 @@ The time and date themselves are never stored — they are read from the visitor
 - No payment provider, no analytics, no other outside services.
 
 ## 4. Deployment (going live)
-- **Repo:** GitHub — `digital-clock` (public). Not created yet; the owner will create it before Milestone 4. GitHub username: to be provided then.
-- **Hosting:** GitHub Pages, serving the `main` branch from the repository root. Expected address: `https://<github-username>.github.io/digital-clock/`
+- **Repo:** GitHub — `FrontOnly`, at https://github.com/AssafFink/FrontOnly (branch `main`). Currently private; it must be switched to public before GitHub Pages can be turned on (on a free GitHub account).
+- **Hosting:** GitHub Pages, serving the `main` branch from the repository root. Expected address: `https://assaffink.github.io/FrontOnly/` (not live yet — Pages is turned on in Milestone 4).
 - Note: Claude prepares the code and config; YOU create the GitHub account and repository, and approve each push and the publish step.
 
 ## 5. Key decisions (ADRs)
