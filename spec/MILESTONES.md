@@ -18,18 +18,18 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 
 ---
 
-## Milestone 1 — Walking Skeleton
+## Milestone 1 — Walking Skeleton 🟢
 > The site opens in the browser with almost nothing in it. This proves the three files are connected before we add features.
 - [x] Create `index.html`, `styles.css` and `script.js` in the project root, linked together
 - [x] The page shows a simple placeholder (e.g. `00:00:00`) on a plain background
 - [x] The script runs (proven by a value on the page that only JavaScript could have put there)
 - **Done when:** opening `index.html` in the browser shows the placeholder page with no errors in the browser console
 
-## Milestone 2 — Working clock
+## Milestone 2 — Working clock 🟢
 > The page shows the real, live time and date. Plain looks — function first.
-- [ ] Slice 2.1: show the current local time as `HH:MM:SS`, updating every second, always read fresh from the device
-- [ ] Slice 2.2: show the day of the week and full date below the time (e.g. `Thursday, October 8, 2026`), changing by itself at midnight
-- [ ] Slice 2.3: a button switches between 24-hour and 12-hour (AM/PM) display; 24-hour is the default
+- [x] Slice 2.1: show the current local time as `HH:MM:SS`, updating every second, always read fresh from the device
+- [x] Slice 2.2: show the day of the week and full date below the time (e.g. `Thursday, October 8, 2026`), changing by itself at midnight
+- [x] Slice 2.3: a button switches between 24-hour and 12-hour (AM/PM) display; 24-hour is the default
 - **Done when:** the time matches my device clock, the seconds tick, the date is correct, and the format button works in both directions
 
 ## Milestone 3 — Design & preferences
@@ -56,5 +56,6 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 
 ## Done log
 - 2026-10-08 — Spec documents written (PRD, ARCHITECTURE, DESIGN, MILESTONES). No code yet.
-- 2026-10-08 — Milestone 1 built (walking skeleton). Waiting for the developer's check and approval.
+- 2026-10-08 — Milestone 1 built (walking skeleton), checked and approved by the developer. 🟢
+- 2026-10-08 — Milestone 2 built (working clock), checked and approved by the developer. 🟢
 - 2026-10-08 — Local git repository created and first push made to GitHub (`AssafFink/FrontOnly`, branch `main`).

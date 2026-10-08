@@ -1,4 +1,4 @@
-/* Milestone 1: minimal styling, just enough to prove the stylesheet is loaded */
+/* Milestone 2: plain, temporary styling. The real design comes in Milestone 3. */
 
 body {
   margin: 0;
@@ -17,4 +17,19 @@ main {
 #clock {
   font-family: monospace;
   font-size: 64px;
+}
+
+#ampm {
+  font-family: monospace;
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+#date {
+  font-size: 18px;
+  margin: 16px 0 0;
+}
+
+#format-toggle {
+  margin-top: 24px;
 }
