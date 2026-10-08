@@ -1,0 +1,20 @@
+/* Milestone 1: minimal styling, just enough to prove the stylesheet is loaded */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0B0F14;
+  color: #E6EDF3;
+}
+
+main {
+  text-align: center;
+}
+
+#clock {
+  font-family: monospace;
+  font-size: 64px;
+}
