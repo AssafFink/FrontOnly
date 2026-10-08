@@ -41,7 +41,7 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 - [x] Slice 3.5: finishing touches — keyboard and screen-reader support for the buttons, reduced-motion support, page title and icon, message when JavaScript is disabled
 - **Done when:** the page matches `DESIGN.md` in both themes, looks right on a phone-sized and a desktop-sized window, and my choices are still there after reloading the page
 
-## Milestone 4 — Going live
+## Milestone 4 — Going live 🟢
 > Put the code on GitHub and publish the site at a public link.
 - [x] I (the developer) create the GitHub repository — `FrontOnly` (https://github.com/AssafFink/FrontOnly)
 - [x] Add a `.gitignore`
@@ -59,5 +59,5 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 - 2026-10-08 — Milestone 1 built (walking skeleton), checked and approved by the developer. 🟢
 - 2026-10-08 — Milestone 2 built (working clock), checked and approved by the developer. 🟢
 - 2026-10-08 — Milestone 3 built (design & preferences), checked and approved by the developer. 🟢
-- 2026-10-08 — Milestone 4 built: repository made public, GitHub Pages turned on, site live at https://assaffink.github.io/FrontOnly/. Waiting for the developer's check (computer and phone) and approval.
+- 2026-10-08 — Milestone 4 built: repository made public, GitHub Pages turned on, site live at https://assaffink.github.io/FrontOnly/. Checked and approved by the developer. 🟢 All four milestones complete.
 - 2026-10-08 — Local git repository created and first push made to GitHub (`AssafFink/FrontOnly`, branch `main`).
