@@ -29,8 +29,8 @@ The time and date themselves are never stored — they are read from the visitor
 - No payment provider, no analytics, no other outside services.
 
 ## 4. Deployment (going live)
-- **Repo:** GitHub — `FrontOnly`, at https://github.com/AssafFink/FrontOnly (branch `main`). Currently private; it must be switched to public before GitHub Pages can be turned on (on a free GitHub account).
-- **Hosting:** GitHub Pages, serving the `main` branch from the repository root. Expected address: `https://assaffink.github.io/FrontOnly/` (not live yet — Pages is turned on in Milestone 4).
+- **Repo:** GitHub — `FrontOnly`, at https://github.com/AssafFink/FrontOnly (branch `main`), public.
+- **Hosting:** GitHub Pages, serving the `main` branch from the repository root. Live at https://assaffink.github.io/FrontOnly/ — every push to `main` updates the site automatically. An empty `.nojekyll` file tells Pages to publish the files exactly as they are.
 - Note: Claude prepares the code and config; YOU create the GitHub account and repository, and approve each push and the publish step.
 
 ## 5. Key decisions (ADRs)

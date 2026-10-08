@@ -45,10 +45,10 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 > Put the code on GitHub and publish the site at a public link.
 - [x] I (the developer) create the GitHub repository — `FrontOnly` (https://github.com/AssafFink/FrontOnly)
 - [x] Add a `.gitignore`
-- [ ] Add a `README.md`
+- [x] Add a `README.md`
 - [x] Put the code on GitHub (`main` branch) — first push done; push again after each approved milestone
-- [ ] I (the developer) switch the repository from private to public
-- [ ] Turn on GitHub Pages for the repository
+- [x] I (the developer) switch the repository from private to public
+- [x] Turn on GitHub Pages for the repository
 - [x] Fill in the real repository and site addresses in `ARCHITECTURE.md`
 - **Done when:** the clock works at `https://assaffink.github.io/FrontOnly/`, on my computer and on my phone
 
@@ -59,4 +59,5 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 - 2026-10-08 — Milestone 1 built (walking skeleton), checked and approved by the developer. 🟢
 - 2026-10-08 — Milestone 2 built (working clock), checked and approved by the developer. 🟢
 - 2026-10-08 — Milestone 3 built (design & preferences), checked and approved by the developer. 🟢
+- 2026-10-08 — Milestone 4 built: repository made public, GitHub Pages turned on, site live at https://assaffink.github.io/FrontOnly/. Waiting for the developer's check (computer and phone) and approval.
 - 2026-10-08 — Local git repository created and first push made to GitHub (`AssafFink/FrontOnly`, branch `main`).
