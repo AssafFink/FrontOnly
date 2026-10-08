@@ -32,13 +32,13 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 - [x] Slice 2.3: a button switches between 24-hour and 12-hour (AM/PM) display; 24-hour is the default
 - **Done when:** the time matches my device clock, the seconds tick, the date is correct, and the format button works in both directions
 
-## Milestone 3 — Design & preferences
+## Milestone 3 — Design & preferences 🟢
 > The clock becomes beautiful and remembers the visitor's choices.
-- [ ] Slice 3.1: apply the style guide from `DESIGN.md` — dark theme colors, fonts, centered layout, button style
-- [ ] Slice 3.2: responsive sizing — the clock fits phones and large monitors with no scroll bars
-- [ ] Slice 3.3: a button switches between the dark and light themes; dark is the default
-- [ ] Slice 3.4: remember the chosen format and theme in the browser and apply them on the next visit; fall back to defaults if saving is not possible
-- [ ] Slice 3.5: finishing touches — keyboard and screen-reader support for the buttons, reduced-motion support, page title and icon, message when JavaScript is disabled
+- [x] Slice 3.1: apply the style guide from `DESIGN.md` — dark theme colors, fonts, centered layout, button style
+- [x] Slice 3.2: responsive sizing — the clock fits phones and large monitors with no scroll bars
+- [x] Slice 3.3: a button switches between the dark and light themes; dark is the default
+- [x] Slice 3.4: remember the chosen format and theme in the browser and apply them on the next visit; fall back to defaults if saving is not possible
+- [x] Slice 3.5: finishing touches — keyboard and screen-reader support for the buttons, reduced-motion support, page title and icon, message when JavaScript is disabled
 - **Done when:** the page matches `DESIGN.md` in both themes, looks right on a phone-sized and a desktop-sized window, and my choices are still there after reloading the page
 
 ## Milestone 4 — Going live
@@ -58,4 +58,5 @@ The detailed plan for each milestone is written to `spec/plans/milestone-N.md` (
 - 2026-10-08 — Spec documents written (PRD, ARCHITECTURE, DESIGN, MILESTONES). No code yet.
 - 2026-10-08 — Milestone 1 built (walking skeleton), checked and approved by the developer. 🟢
 - 2026-10-08 — Milestone 2 built (working clock), checked and approved by the developer. 🟢
+- 2026-10-08 — Milestone 3 built (design & preferences), checked and approved by the developer. 🟢
 - 2026-10-08 — Local git repository created and first push made to GitHub (`AssafFink/FrontOnly`, branch `main`).

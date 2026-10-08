@@ -3,18 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A clean digital clock showing the current local time and date.">
+  <meta name="theme-color" content="#0B0F14">
   <title>Digital Clock</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    // Apply the saved theme before the page is drawn, to avoid a flash of the wrong theme
+    try {
+      if (localStorage.getItem('clock-theme') === 'light') {
+        document.documentElement.dataset.theme = 'light';
+      }
+    } catch (error) {
+      // Storage is unavailable: keep the default theme
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+  <noscript>
+    <style>
+      header, .time-row, #date { display: none; }
+    </style>
+  </noscript>
 </head>
 <body>
+  <header>
+    <button id="format-toggle" type="button" aria-label="Switch to 12-hour format">12h</button>
+    <button id="theme-toggle" type="button" aria-label="Switch to light theme">Light</button>
+  </header>
   <main>
-    <div>
-      <time id="clock">00:00:00</time>
+    <h1 class="visually-hidden">Digital Clock</h1>
+    <div class="time-row">
+      <time id="clock"><span id="hours">00</span><span class="colon">:</span><span id="minutes">00</span><span class="colon">:</span><span id="seconds">00</span></time>
       <span id="ampm"></span>
     </div>
     <p id="date"></p>
-    <button id="format-toggle" type="button">12h</button>
+    <noscript>
+      <p class="notice">This clock needs JavaScript to run. Please enable it and reload the page.</p>
+    </noscript>
   </main>
 </body>
 </html>
